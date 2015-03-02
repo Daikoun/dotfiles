@@ -3,7 +3,9 @@ export LSCOLORS=ExFxCxDxBxegedabagacad
 # Tell grep to highlight matches
 # export GREP_OPTIONS='--color=auto'
 
-PATH=/usr/local/bin:/usr/local/pear/bin:/usr/local/sbin:$HOME/Library/Haskell/bin:$PATH
+PATH=:$HOME/.composer/vendor/bin:/usr/local/bin:/usr/local/pear/bin:/usr/local/sbin:$HOME/Library/Haskell/bin:$PATH
+# set Java Home
+export JAVA_HOME=/System/Library/Frameworks/JavaVM.Framework/Versions/CurrentJDK/Home
 
 # export TERM="xterm-256color"
 parse_git_branch() {
